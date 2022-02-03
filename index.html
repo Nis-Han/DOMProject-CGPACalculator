@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CGPA CALCULATOR</title>
+</head>
+
+<body>
+    <div id = 'formArea'>
+        <div id='heading'>CGPA Calculator</div><br>
+
+        <form>
+            <div>
+                <label for="SemGrade"> Semester Grade:</label>
+                <input type="text" id="inputBoxGrade">
+            </div>
+            <div>
+                <label for="credits"> Credits:</label>
+                <input type="text" id="inputBoxCredit"><br>
+            </div>
+            <div>
+            <br>    
+            <input type="submit" id='submitButton' value="Add Sem">
+                
+            </div>
+        </form>
+    </div>
+
+    <div class = "GPAbox">
+        Your Overall GPA is: <span class = "GPA">0</span>
+    </div>
+    
+    <div class ="gradeList"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    background-color:#AAA;
+    font-weight: bold;
+}
+
+#formArea, .GPAbox{
+    background-color: #CCC;
+    box-shadow: 5px 5px 15px 5px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    inline-size: 60vmin;
+    padding: 20px;
+    margin: auto;
+    text-align:center;
+}
+
+.GPAbox{
+    margin: auto;
+}
+
+#inputBox{
+    border-radius: 5px 5px 0 0;
+    border-width: 0 0 2px 0;
+    
+}
+
+
+#inputBoxCredit{
+    margin-top: 0.3rem;
+}
+
+#heading{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #222222;
+    margin: auto;
+    text-align: center;
+
+}
+
+.gradeList{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.gradeListText{
+    margin: auto;
+}
+
+
+.gradeListItem{
+    background-color: #CCC;
+    box-shadow: 1px 1px 3px 3px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    
+    padding: 0.5rem;
+    inline-size: 60vmin;
+    text-align:center;
+
+    height: 40px;
+    margin: 0.7rem auto;
+
+}
+
+
+
+.grades{
+    padding-right: 5rem;
+}
